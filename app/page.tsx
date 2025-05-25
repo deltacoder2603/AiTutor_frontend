@@ -175,11 +175,11 @@ export default function AITutorPage() {
               <div className="text-center py-12 animate-fade-in">
                 <MessageCircle className="w-16 h-16 text-white/50 mx-auto mb-4" />
                 <p className="text-white/70 text-lg">Start a conversation with your AI tutor!</p>
-                <p className="text-white/50 text-sm mt-2">Ask questions about any subject you'd like to learn</p>
+                <p className="text-white/50 text-sm mt-2">Ask questions about any subject you&apos;d like to learn</p>
               </div>
             )}
 
-            {messages.map((message, index) => (
+            {messages.map((message) => (
               <div
                 key={message.id}
                 className={`flex gap-3 ${message.isUser ? 'animate-slide-right' : 'animate-slide-left'}`}
